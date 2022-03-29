@@ -21,8 +21,8 @@ OneWire oneWire(oneWireBus); //setup to communicate any onewire device
 DallasTemperature sensors(&oneWire); //pass onewire reference to Dallas Temperature sensor
 
 //-------Enter your WiFi Details------//
-char ssid[] = "AIM";  //SSID
-char pass[] = "husna8412";  //Password
+char ssid[] = "****";  //SSID
+char pass[] = "*******";  //Password
 //-----------------------------------//
 //-------------ThingSpeak Details-----------------//
 unsigned long myChannelField =1678118  ;
